@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 10px 0;
+  flex-shrink: 0;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.main-content > .map-container {
+  flex-grow: 1;
+  min-height: 300px;
+}
+.main-content > .shape-info {
+  flex-shrink: 0;
+  max-height: 30vh;
+  overflow-y: auto;
+ }
